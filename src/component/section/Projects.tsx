@@ -108,20 +108,23 @@ export const Projects = () => {
               className="flex flex-col justify-between"
             >
               <div>
-                {/* Header: Project Name & Badge */}
+                {/* Header: Project Name, Slug & Badge */}
                 <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
                   <div>
-                    <h3 className="text-2xl font-mono font-bold tracking-tight">
+                    <h3 className="text-xl sm:text-2xl font-bold font-sans tracking-tight">
                       <a
                         href={project.githubUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-zinc-900 hover:text-purple-600 dark:text-zinc-50 dark:hover:text-purple-400 transition-colors"
+                        className="text-zinc-900 hover:text-purple-600 dark:text-zinc-50 dark:hover:text-purple-400 transition-colors inline-flex items-center gap-2"
                         title={`${data.repoButtonLabel}: ${project.name}`}
                       >
                         {project.name}
                       </a>
                     </h3>
+                    <span className="block font-mono text-xs text-zinc-500 dark:text-zinc-400 mt-1">
+                      devsys-code/{project.id}
+                    </span>
                   </div>
                   <Badge variant={getProjectBadgeVariant(project.id)} size="sm">
                     {project.badge}

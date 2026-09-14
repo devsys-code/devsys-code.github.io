@@ -18,8 +18,8 @@ export const projectsData: LocalizedContent<ProjectsData> = {
     projects: [
       {
         id: 'nestjs_saas',
-        name: 'nestjs_saas',
-        badge: 'Core Backend Template',
+        name: 'NestJS SaaS Core',
+        badge: 'Backend Multitenant',
         category: 'backend',
         description:
           'Backend multitenant de alto rendimiento construido sobre NestJS 11 y Fastify, con BaseTenantService agnóstico al tipo de clave primaria y createTenantController con 6 endpoints estándar.',
@@ -35,8 +35,8 @@ export const projectsData: LocalizedContent<ProjectsData> = {
       },
       {
         id: 'django_saas',
-        name: 'django_saas',
-        badge: 'Core Backend Template',
+        name: 'Django SaaS Core',
+        badge: 'Backend Multitenant',
         category: 'backend',
         description:
           'Backend multitenant en Django 6 con aislamiento estricto por organización, soporte para TenantModelUUID / TenantModelID, autenticación JWT con rotación y módulos org/, usr/, sed/.',
@@ -52,8 +52,8 @@ export const projectsData: LocalizedContent<ProjectsData> = {
       },
       {
         id: 'react_saas',
-        name: 'react_saas',
-        badge: 'Core Frontend Template',
+        name: 'React SaaS Core',
+        badge: 'Frontend Multitenant',
         category: 'frontend',
         description:
           'Frontend SaaS ligero y ultra rápido desarrollado con React 19, Vite, Zustand 5 y React Router 7. ApiAdapter interoperable para intercambiar backend sin tocar vistas.',
@@ -69,8 +69,8 @@ export const projectsData: LocalizedContent<ProjectsData> = {
       },
       {
         id: 'angular_saas',
-        name: 'angular_saas',
-        badge: 'Core Frontend Template',
+        name: 'Angular SaaS Core',
+        badge: 'Frontend Multitenant',
         category: 'frontend',
         description:
           'Frontend empresarial en Angular 22 con Signals, Standalone Components y Tailwind CSS v4. Incorpora ApiAdapter agnóstico para conectarse sin cambios a Django o NestJS.',
@@ -86,8 +86,8 @@ export const projectsData: LocalizedContent<ProjectsData> = {
       },
       {
         id: 'saas-skills',
-        name: 'saas-skills',
-        badge: 'Suite de Skills de IA',
+        name: 'SaaS AI Skills Suite',
+        badge: 'Suite de IA (8 Skills)',
         category: 'ai-suite',
         description:
           'Suite modular de 8 skills empaquetadas (4 Core + 4 CRUD) para la CLI de skills y MCP. Automatiza la arquitectura base y entidades de negocio en Django, NestJS, Angular y React.',
@@ -118,8 +118,8 @@ export const projectsData: LocalizedContent<ProjectsData> = {
     projects: [
       {
         id: 'nestjs_saas',
-        name: 'nestjs_saas',
-        badge: 'Core Backend Template',
+        name: 'NestJS SaaS Core',
+        badge: 'Multitenant Backend',
         category: 'backend',
         description:
           'High-performance multitenant backend built with NestJS 11 and Fastify, featuring PK-agnostic BaseTenantService and createTenantController with 6 standard endpoints.',
@@ -135,8 +135,8 @@ export const projectsData: LocalizedContent<ProjectsData> = {
       },
       {
         id: 'django_saas',
-        name: 'django_saas',
-        badge: 'Core Backend Template',
+        name: 'Django SaaS Core',
+        badge: 'Multitenant Backend',
         category: 'backend',
         description:
           'Django 6 multitenant backend with strict organization isolation, TenantModelUUID / TenantModelID support, rotating JWT authentication, and modular org/, usr/, sed/ architecture.',
@@ -152,8 +152,8 @@ export const projectsData: LocalizedContent<ProjectsData> = {
       },
       {
         id: 'react_saas',
-        name: 'react_saas',
-        badge: 'Core Frontend Template',
+        name: 'React SaaS Core',
+        badge: 'Multitenant Frontend',
         category: 'frontend',
         description:
           'Fast and lightweight SaaS frontend built with React 19, Vite, Zustand 5, and React Router 7. Features decoupled ApiAdapter to swap backends without touching views.',
@@ -169,8 +169,8 @@ export const projectsData: LocalizedContent<ProjectsData> = {
       },
       {
         id: 'angular_saas',
-        name: 'angular_saas',
-        badge: 'Core Frontend Template',
+        name: 'Angular SaaS Core',
+        badge: 'Multitenant Frontend',
         category: 'frontend',
         description:
           'Enterprise Angular 22 frontend leveraging Signals, Standalone Components, and Tailwind CSS v4. Features an agnostic ApiAdapter connecting to Django or NestJS.',
@@ -186,8 +186,8 @@ export const projectsData: LocalizedContent<ProjectsData> = {
       },
       {
         id: 'saas-skills',
-        name: 'saas-skills',
-        badge: 'AI Skills Suite',
+        name: 'SaaS AI Skills Suite',
+        badge: 'AI Suite (8 Skills)',
         category: 'ai-suite',
         description:
           'Modular suite of 8 packaged skills (4 Core + 4 CRUD) for the skills CLI and MCP. Automates foundational architecture and business entities across Django, NestJS, Angular, and React.',
