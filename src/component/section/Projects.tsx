@@ -111,8 +111,16 @@ export const Projects = () => {
                 {/* Header: Project Name & Badge */}
                 <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
                   <div>
-                    <h3 className="text-2xl font-mono font-bold text-zinc-900 dark:text-zinc-50 tracking-tight">
-                      {project.name}
+                    <h3 className="text-2xl font-mono font-bold tracking-tight">
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-zinc-900 hover:text-purple-600 dark:text-zinc-50 dark:hover:text-purple-400 transition-colors"
+                        title={`${data.repoButtonLabel}: ${project.name}`}
+                      >
+                        {project.name}
+                      </a>
                     </h3>
                   </div>
                   <Badge variant={getProjectBadgeVariant(project.id)} size="sm">

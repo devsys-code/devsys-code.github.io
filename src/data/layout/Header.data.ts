@@ -5,7 +5,7 @@ export const headerData: LocalizedContent<HeaderData> = {
   es: {
     logo: {
       tag: 'sys',
-      text: 'devsys-code',
+      text: 'DevSys-Code',
     },
     navigation: [
       { id: 'home', label: 'Inicio', href: '#home' },
@@ -20,7 +20,7 @@ export const headerData: LocalizedContent<HeaderData> = {
   en: {
     logo: {
       tag: 'sys',
-      text: 'devsys-code',
+      text: 'DevSys-Code',
     },
     navigation: [
       { id: 'home', label: 'Home', href: '#home' },
