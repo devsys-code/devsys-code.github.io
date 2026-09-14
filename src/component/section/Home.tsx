@@ -53,12 +53,12 @@ export const Home = () => {
           {data.stats.map((stat) => (
             <div
               key={stat.label}
-              className="p-4 sm:p-5 rounded-xl border border-zinc-200/80 bg-zinc-50/50 dark:border-zinc-800/80 dark:bg-zinc-900/30 text-center sm:text-left transition-colors hover:border-zinc-300 dark:hover:border-zinc-700 flex flex-col justify-center"
+              className="p-4 sm:p-5 rounded-xl border border-zinc-200/80 bg-zinc-50/50 dark:border-zinc-800/80 dark:bg-zinc-900/30 text-center sm:text-left transition-colors hover:border-zinc-300 dark:hover:border-zinc-700 flex flex-col justify-center min-h-[96px] sm:min-h-[104px]"
             >
-              <div className="text-xl sm:text-2xl lg:text-[1.65rem] font-extrabold font-mono text-zinc-900 dark:text-zinc-50 tracking-tight leading-tight">
+              <div className="text-xl sm:text-2xl lg:text-[1.65rem] font-bold font-sans text-zinc-900 dark:text-zinc-50 tracking-tight leading-none h-8 sm:h-9 flex items-center justify-center sm:justify-start">
                 {stat.value}
               </div>
-              <div className="mt-1 text-xs sm:text-sm font-medium text-zinc-600 dark:text-zinc-400">
+              <div className="mt-1.5 text-xs sm:text-sm font-medium text-zinc-600 dark:text-zinc-400">
                 {stat.label}
               </div>
             </div>
